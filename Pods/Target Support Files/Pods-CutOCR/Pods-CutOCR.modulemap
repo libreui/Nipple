@@ -1,0 +1,6 @@
+framework module Pods_CutOCR {
+  umbrella header "Pods-CutOCR-umbrella.h"
+
+  export *
+  module * { export * }
+}
