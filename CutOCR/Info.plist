@@ -32,5 +32,9 @@
 	<true/>
 	<key>NSSupportsSuddenTermination</key>
 	<true/>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>CFBundleDisplayName</key>
+	<string>Nipple</string>
 </dict>
 </plist>

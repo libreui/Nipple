@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17156"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,11 +12,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="CutOCR" id="1Xt-HY-uBw">
+                            <menuItem title="Nipple" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="CutOCR" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Nipple" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About CutOCR" id="5kV-Vb-QxS">
+                                        <menuItem title="About Nipple" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -24,7 +25,7 @@
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
                                         <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
                                         <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
-                                        <menuItem title="Hide CutOCR" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Nipple" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -42,7 +43,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit CutOCR" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Nipple" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -71,7 +72,7 @@
                 </application>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="CutOCR" customModuleProvider="target">
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Nipple" customModuleProvider="target">
                     <connections>
                         <outlet property="menuCut" destination="aTl-1u-JFS" id="7Jt-zQ-2RC"/>
                     </connections>
@@ -84,7 +85,7 @@
             <objects>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <windowController storyboardIdentifier="ocrWindow" id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="CutOCR - By Libre" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Nipple - By Libre" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES" fullSizeContentView="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="515" y="545" width="900" height="600"/>
@@ -100,10 +101,71 @@
             </objects>
             <point key="canvasLocation" x="321.5" y="449"/>
         </scene>
+        <!--Window Controller-->
+        <scene sceneID="HgD-5h-FdL">
+            <objects>
+                <windowController storyboardIdentifier="timeWin" id="XmG-Hd-dnT" customClass="TimeWindowController" customModule="Nipple" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="JXQ-1E-KlA">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="294" y="313" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+                        <view key="contentView" id="hyQ-i7-g7V">
+                            <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </view>
+                        <connections>
+                            <outlet property="delegate" destination="XmG-Hd-dnT" id="ihS-6w-Viq"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="C24-It-iXY" kind="relationship" relationship="window.shadowedContentViewController" id="hdL-gQ-4hC"/>
+                    </connections>
+                </windowController>
+                <customObject id="3j2-Zs-yYe" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1065" y="381"/>
+        </scene>
+        <!--Time Controller-->
+        <scene sceneID="J9r-NN-Xco">
+            <objects>
+                <viewController storyboardIdentifier="timeCtrl" id="C24-It-iXY" customClass="TimeController" customModule="Nipple" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="4s2-Yb-7TQ">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qVS-L8-LGx">
+                                <rect key="frame" x="18" y="234" width="81" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="当前时间戳：" id="l4U-Bb-os1">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="czH-a5-Jj9">
+                                <rect key="frame" x="99" y="231" width="148" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="0" drawsBackground="YES" id="Hte-hS-ujJ">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="txtFieldCurrentTimestamp" destination="czH-a5-Jj9" id="SHV-fV-HqX"/>
+                    </connections>
+                </viewController>
+                <customObject id="3rQ-Hb-aqD" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1065" y="945"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController storyboardIdentifier="viewCtrl" id="XfG-lQ-9wD" customClass="ViewController" customModule="CutOCR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="viewCtrl" id="XfG-lQ-9wD" customClass="ViewController" customModule="Nipple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="900" height="600"/>
                         <autoresizingMask key="autoresizingMask"/>

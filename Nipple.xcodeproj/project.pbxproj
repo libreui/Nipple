@@ -19,6 +19,8 @@
 		C6B613F6242EE31A00FCE851 /* OCRBasicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B613F5242EE31A00FCE851 /* OCRBasicModel.swift */; };
 		C6B613F9242EECDB00FCE851 /* NSImage+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B613F8242EECDB00FCE851 /* NSImage+Base64.swift */; };
 		C6B613FB242F1FA100FCE851 /* Defined.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B613FA242F1FA100FCE851 /* Defined.swift */; };
+		F054DAA1251C8A5D00213D38 /* TimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F054DAA0251C8A5D00213D38 /* TimeController.swift */; };
+		F054DAA6251C8D8100213D38 /* TimeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F054DAA5251C8D8100213D38 /* TimeWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +44,15 @@
 		2F7A2EBDFF684990475EAC2D /* Pods-CutOCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CutOCR.release.xcconfig"; path = "Target Support Files/Pods-CutOCR/Pods-CutOCR.release.xcconfig"; sourceTree = "<group>"; };
 		7BE0AD9DD4BF2145CF5AFFE6 /* Pods-CutOCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CutOCR.debug.xcconfig"; path = "Target Support Files/Pods-CutOCR/Pods-CutOCR.debug.xcconfig"; sourceTree = "<group>"; };
 		9A8B333BFD5184515CF201BE /* Pods_CutOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CutOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C63F7034242C347400D44CF8 /* CutOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63F7034242C347400D44CF8 /* Nipple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nipple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63F7037242C347400D44CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C63F7039242C347400D44CF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C63F703B242C347600D44CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C63F703E242C347600D44CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C63F7040242C347600D44CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C63F7041242C347600D44CF8 /* CutOCR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CutOCR.entitlements; sourceTree = "<group>"; };
-		C63F7046242C347700D44CF8 /* CutOCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutOCRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C63F7051242C347700D44CF8 /* CutOCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutOCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63F7046242C347700D44CF8 /* NippleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NippleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63F7051242C347700D44CF8 /* NippleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NippleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6832090242DD40C0084DA5C /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		C6832092242DDEB90084DA5C /* AccessTokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenModel.swift; sourceTree = "<group>"; };
 		C6832094242DDEE30084DA5C /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
@@ -60,6 +62,8 @@
 		C6B613F5242EE31A00FCE851 /* OCRBasicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRBasicModel.swift; sourceTree = "<group>"; };
 		C6B613F8242EECDB00FCE851 /* NSImage+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Base64.swift"; sourceTree = "<group>"; };
 		C6B613FA242F1FA100FCE851 /* Defined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defined.swift; sourceTree = "<group>"; };
+		F054DAA0251C8A5D00213D38 /* TimeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeController.swift; sourceTree = "<group>"; };
+		F054DAA5251C8D8100213D38 /* TimeWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +114,9 @@
 		C63F7035242C347400D44CF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C63F7034242C347400D44CF8 /* CutOCR.app */,
-				C63F7046242C347700D44CF8 /* CutOCRTests.xctest */,
-				C63F7051242C347700D44CF8 /* CutOCRUITests.xctest */,
+				C63F7034242C347400D44CF8 /* Nipple.app */,
+				C63F7046242C347700D44CF8 /* NippleTests.xctest */,
+				C63F7051242C347700D44CF8 /* NippleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +135,8 @@
 				C63F7040242C347600D44CF8 /* Info.plist */,
 				C63F7041242C347600D44CF8 /* CutOCR.entitlements */,
 				C6832090242DD40C0084DA5C /* WindowController.swift */,
+				F054DAA0251C8A5D00213D38 /* TimeController.swift */,
+				F054DAA5251C8D8100213D38 /* TimeWindowController.swift */,
 			);
 			path = CutOCR;
 			sourceTree = "<group>";
@@ -182,9 +188,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C63F7033242C347400D44CF8 /* CutOCR */ = {
+		C63F7033242C347400D44CF8 /* Nipple */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C63F705A242C347700D44CF8 /* Build configuration list for PBXNativeTarget "CutOCR" */;
+			buildConfigurationList = C63F705A242C347700D44CF8 /* Build configuration list for PBXNativeTarget "Nipple" */;
 			buildPhases = (
 				C509E89938DFCE1558C036ED /* [CP] Check Pods Manifest.lock */,
 				C63F7030242C347400D44CF8 /* Sources */,
@@ -196,14 +202,14 @@
 			);
 			dependencies = (
 			);
-			name = CutOCR;
+			name = Nipple;
 			productName = CutOCR;
-			productReference = C63F7034242C347400D44CF8 /* CutOCR.app */;
+			productReference = C63F7034242C347400D44CF8 /* Nipple.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C63F7045242C347700D44CF8 /* CutOCRTests */ = {
+		C63F7045242C347700D44CF8 /* NippleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C63F705D242C347700D44CF8 /* Build configuration list for PBXNativeTarget "CutOCRTests" */;
+			buildConfigurationList = C63F705D242C347700D44CF8 /* Build configuration list for PBXNativeTarget "NippleTests" */;
 			buildPhases = (
 				C63F7042242C347700D44CF8 /* Sources */,
 				C63F7043242C347700D44CF8 /* Frameworks */,
@@ -214,14 +220,14 @@
 			dependencies = (
 				C63F7048242C347700D44CF8 /* PBXTargetDependency */,
 			);
-			name = CutOCRTests;
+			name = NippleTests;
 			productName = CutOCRTests;
-			productReference = C63F7046242C347700D44CF8 /* CutOCRTests.xctest */;
+			productReference = C63F7046242C347700D44CF8 /* NippleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C63F7050242C347700D44CF8 /* CutOCRUITests */ = {
+		C63F7050242C347700D44CF8 /* NippleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C63F7060242C347700D44CF8 /* Build configuration list for PBXNativeTarget "CutOCRUITests" */;
+			buildConfigurationList = C63F7060242C347700D44CF8 /* Build configuration list for PBXNativeTarget "NippleUITests" */;
 			buildPhases = (
 				C63F704D242C347700D44CF8 /* Sources */,
 				C63F704E242C347700D44CF8 /* Frameworks */,
@@ -232,9 +238,9 @@
 			dependencies = (
 				C63F7053242C347700D44CF8 /* PBXTargetDependency */,
 			);
-			name = CutOCRUITests;
+			name = NippleUITests;
 			productName = CutOCRUITests;
-			productReference = C63F7051242C347700D44CF8 /* CutOCRUITests.xctest */;
+			productReference = C63F7051242C347700D44CF8 /* NippleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +266,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C63F702F242C347400D44CF8 /* Build configuration list for PBXProject "CutOCR" */;
+			buildConfigurationList = C63F702F242C347400D44CF8 /* Build configuration list for PBXProject "Nipple" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,9 +279,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C63F7033242C347400D44CF8 /* CutOCR */,
-				C63F7045242C347700D44CF8 /* CutOCRTests */,
-				C63F7050242C347700D44CF8 /* CutOCRUITests */,
+				C63F7033242C347400D44CF8 /* Nipple */,
+				C63F7045242C347700D44CF8 /* NippleTests */,
+				C63F7050242C347700D44CF8 /* NippleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -353,6 +359,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F054DAA6251C8D8100213D38 /* TimeWindowController.swift in Sources */,
+				F054DAA1251C8A5D00213D38 /* TimeController.swift in Sources */,
 				C6B613F6242EE31A00FCE851 /* OCRBasicModel.swift in Sources */,
 				C6832095242DDEE30084DA5C /* HttpClient.swift in Sources */,
 				C63F703A242C347400D44CF8 /* ViewController.swift in Sources */,
@@ -384,12 +392,12 @@
 /* Begin PBXTargetDependency section */
 		C63F7048242C347700D44CF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C63F7033242C347400D44CF8 /* CutOCR */;
+			target = C63F7033242C347400D44CF8 /* Nipple */;
 			targetProxy = C63F7047242C347700D44CF8 /* PBXContainerItemProxy */;
 		};
 		C63F7053242C347700D44CF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C63F7033242C347400D44CF8 /* CutOCR */;
+			target = C63F7033242C347400D44CF8 /* Nipple */;
 			targetProxy = C63F7052242C347700D44CF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -528,7 +536,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 20200101;
-				DEVELOPMENT_TEAM = 25R4M7DY99;
+				DEVELOPMENT_TEAM = JTW62WB2W9;
 				INFOPLIST_FILE = CutOCR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -551,7 +559,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 20200101;
-				DEVELOPMENT_TEAM = 25R4M7DY99;
+				DEVELOPMENT_TEAM = JTW62WB2W9;
 				INFOPLIST_FILE = CutOCR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -582,7 +590,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cutocr.CutOCRTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutOCR.app/Contents/MacOS/CutOCR";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nipple.app/Contents/MacOS/Nipple";
 			};
 			name = Debug;
 		};
@@ -603,7 +611,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cutocr.CutOCRTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutOCR.app/Contents/MacOS/CutOCR";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nipple.app/Contents/MacOS/Nipple";
 			};
 			name = Release;
 		};
@@ -648,7 +656,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C63F702F242C347400D44CF8 /* Build configuration list for PBXProject "CutOCR" */ = {
+		C63F702F242C347400D44CF8 /* Build configuration list for PBXProject "Nipple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C63F7058242C347700D44CF8 /* Debug */,
@@ -657,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C63F705A242C347700D44CF8 /* Build configuration list for PBXNativeTarget "CutOCR" */ = {
+		C63F705A242C347700D44CF8 /* Build configuration list for PBXNativeTarget "Nipple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C63F705B242C347700D44CF8 /* Debug */,
@@ -666,7 +674,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C63F705D242C347700D44CF8 /* Build configuration list for PBXNativeTarget "CutOCRTests" */ = {
+		C63F705D242C347700D44CF8 /* Build configuration list for PBXNativeTarget "NippleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C63F705E242C347700D44CF8 /* Debug */,
@@ -675,7 +683,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C63F7060242C347700D44CF8 /* Build configuration list for PBXNativeTarget "CutOCRUITests" */ = {
+		C63F7060242C347700D44CF8 /* Build configuration list for PBXNativeTarget "NippleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C63F7061242C347700D44CF8 /* Debug */,
