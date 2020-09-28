@@ -27,6 +27,7 @@ class TimeController: NSViewController {
     }
     
     func setInit() {
+        view.window?.level = .floating
         setCurrentTimestamp()
     }
     

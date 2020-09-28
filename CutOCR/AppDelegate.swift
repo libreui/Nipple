@@ -17,8 +17,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let storyboard = NSStoryboard(name: "Main", bundle: nil)
     var win : NSWindowController?
     var timeWin : TimeWindowController?
+    var optionWin : OptionWindowController?
+    
     var ctrl : ViewController?
     var timeCtrl : TimeController?
+    var optionCtrl : OptionController?
 
     
     
@@ -30,8 +33,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         win = storyboard.instantiateController(withIdentifier: "ocrWindow") as? NSWindowController
         timeWin = storyboard.instantiateController(withIdentifier: "timeWin") as? TimeWindowController
+        optionWin = storyboard.instantiateController(withIdentifier: "optionWin") as? OptionWindowController
+        
         ctrl = storyboard.instantiateController(withIdentifier: "viewCtrl") as? ViewController
         timeCtrl = storyboard.instantiateController(withIdentifier: "timeCtrl") as? TimeController
+        optionCtrl = storyboard.instantiateController(withIdentifier: "optionCtrl") as? OptionController
+
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -54,25 +61,35 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusBarItem.menu = statusBarMenu
 
         let cutItem = NSMenuItem()
-        cutItem.title = "OCR"
+        cutItem.title = "OCR截图"
+        cutItem.action = #selector(AppDelegate.onCutClicked)
         
-        let cutItemSubMenu = NSMenu(title: "OCR")
-//        cutItemSubMenu.addItem(withTitle: "截图", action: #selector(AppDelegate.onCutClicked), keyEquivalent: "")
-        cutItemSubMenu.addItem(withTitle: "识别...", action: #selector(AppDelegate.onCutClicked), keyEquivalent: "")
+//        let cutItemSubMenu = NSMenu(title: "OCR")
+//        cutItemSubMenu.addItem(withTitle: "截图并识别", action: #selector(AppDelegate.onCaptureClieked), keyEquivalent: "")
+//        cutItemSubMenu.addItem(withTitle: "识别...", action: #selector(AppDelegate.onCutClicked), keyEquivalent: "")
         
-        cutItem.submenu = cutItemSubMenu
+//        cutItem.submenu = cutItemSubMenu
     
         statusBarMenu.addItem(cutItem)
         
         let timeItem = NSMenuItem(
-            title: "Timestamp...",
-            action: #selector(AppDelegate.onCapture),
+            title: "时间戳...",
+            action: #selector(AppDelegate.onTimestampClicked),
             keyEquivalent: ""
         )
         statusBarMenu.addItem(timeItem)
+        
+        statusBarMenu.addItem(NSMenuItem.separator())
+        
+        let optionItem = NSMenuItem(
+            title: "设置...",
+            action: #selector(AppDelegate.onOptionClicked),
+            keyEquivalent: ""
+        )
+        statusBarMenu.addItem(optionItem)
     }
     
-    //TODO 初始化百度Token
+    //MARK: 初始化百度Token
     func initAccessToken() {
         HttpClient().getAccessToken {
             jsonStr in
@@ -86,10 +103,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         vc.setOCR()
     }
     
-    //MARK: 截图
-    @objc func onCapture() {
+    //MARK: 时间戳
+    @objc func onTimestampClicked() {
         timeWin?.showWindow(self)
         let vc = timeWin?.contentViewController as! TimeController
+        vc.setInit()
+    }
+    
+    //MARK: 截图
+    @objc func onCaptureClicked() {
+        
+    }
+    
+    //MARK: 设置
+    @objc func onOptionClicked() {
+        optionWin?.showWindow(self)
+        let vc = optionWin?.contentViewController as! OptionController
         vc.setInit()
     }
     

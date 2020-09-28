@@ -19,8 +19,10 @@
 		C6B613F6242EE31A00FCE851 /* OCRBasicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B613F5242EE31A00FCE851 /* OCRBasicModel.swift */; };
 		C6B613F9242EECDB00FCE851 /* NSImage+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B613F8242EECDB00FCE851 /* NSImage+Base64.swift */; };
 		C6B613FB242F1FA100FCE851 /* Defined.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B613FA242F1FA100FCE851 /* Defined.swift */; };
+		F01A42F62521B97C001909CA /* OptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A42F52521B97C001909CA /* OptionController.swift */; };
 		F054DAA1251C8A5D00213D38 /* TimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F054DAA0251C8A5D00213D38 /* TimeController.swift */; };
 		F054DAA6251C8D8100213D38 /* TimeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F054DAA5251C8D8100213D38 /* TimeWindowController.swift */; };
+		F0D24FC82521B92400527E6C /* OptionWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D24FC72521B92400527E6C /* OptionWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +64,10 @@
 		C6B613F5242EE31A00FCE851 /* OCRBasicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRBasicModel.swift; sourceTree = "<group>"; };
 		C6B613F8242EECDB00FCE851 /* NSImage+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Base64.swift"; sourceTree = "<group>"; };
 		C6B613FA242F1FA100FCE851 /* Defined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defined.swift; sourceTree = "<group>"; };
+		F01A42F52521B97C001909CA /* OptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionController.swift; sourceTree = "<group>"; };
 		F054DAA0251C8A5D00213D38 /* TimeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeController.swift; sourceTree = "<group>"; };
 		F054DAA5251C8D8100213D38 /* TimeWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWindowController.swift; sourceTree = "<group>"; };
+		F0D24FC72521B92400527E6C /* OptionWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 				C6832090242DD40C0084DA5C /* WindowController.swift */,
 				F054DAA0251C8A5D00213D38 /* TimeController.swift */,
 				F054DAA5251C8D8100213D38 /* TimeWindowController.swift */,
+				F0D24FC72521B92400527E6C /* OptionWindowController.swift */,
+				F01A42F52521B97C001909CA /* OptionController.swift */,
 			);
 			path = CutOCR;
 			sourceTree = "<group>";
@@ -367,7 +373,9 @@
 				C6B613F9242EECDB00FCE851 /* NSImage+Base64.swift in Sources */,
 				C6832093242DDEB90084DA5C /* AccessTokenModel.swift in Sources */,
 				C6B613FB242F1FA100FCE851 /* Defined.swift in Sources */,
+				F0D24FC82521B92400527E6C /* OptionWindowController.swift in Sources */,
 				C6832091242DD40C0084DA5C /* WindowController.swift in Sources */,
+				F01A42F62521B97C001909CA /* OptionController.swift in Sources */,
 				C6B613F3242EDAB400FCE851 /* Cache.swift in Sources */,
 				C63F7038242C347400D44CF8 /* AppDelegate.swift in Sources */,
 			);

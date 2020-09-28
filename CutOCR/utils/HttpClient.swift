@@ -21,6 +21,8 @@ class HttpClient {
             "client_secret" : BAIDU_SECRET_KEY
         ]
         
+        print(postData)
+        
         AF.request("https://aip.baidubce.com/oauth/2.0/token",
                    method: .post,
                    parameters: postData).responseString { response in
